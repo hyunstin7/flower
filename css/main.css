@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'TTTtangsbudaejjigaeB';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -15,6 +15,11 @@
 
 html {
     font-family: 'TTTtangsbudaejjigaeB' , 'Pretendard-Regular';
+    
+}
+
+.fake-br {
+    display: none;
 }
 
 html,body {
@@ -700,7 +705,7 @@ header {
 .m3-left::after {
     position: absolute;
     content: 'INTERIOR';
-    top: 25%;
+    top: 30%;
     left: 5%;
     font-size: 6rem;
     color: #ffffffbb;
@@ -907,7 +912,7 @@ header {
     font-size: 5rem;
     text-align: center;
     line-height: 130%;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .p-top span {
@@ -1484,6 +1489,14 @@ footer span {
         width: 80%;
     }
 
+
+
+    .m2-middle p {
+        width: max-content;
+        text-align: center;
+        margin: 0 auto;
+    }
+
     .p1-box-wrap, .p2-box-wrap {
         width: 42%;
     }
@@ -1548,6 +1561,10 @@ footer span {
         font-size: 8px;
     }
 
+    .fake-br{
+        display: block;
+    }
+
     .main-box p {
         font-size: 2rem;
     }
@@ -1566,6 +1583,10 @@ footer span {
 
     #brand {
         padding: 50px 0;
+    }
+
+    .b-bottom p {
+        font-size: 2rem;
     }
 
     .b-middle img {
@@ -1661,14 +1682,27 @@ footer span {
 
     .m2-top {
         width: 100%;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .m2-middle {
+        margin-bottom: 60px;
     }
 
     .m2-bottom h2{
         width: 80%;
     }
+
+    .m2-bottom h2::before, .m2-bottom h2::after {
+        top: 35%;
+    }
     .m3-left {
         width: 100%;
+        padding: 70px 0 20px 0;
     }
+
+    
 
     .m3-middle td, .m3-bottom td {
         padding: 20px 5px 20px 5px!important;
@@ -1676,8 +1710,12 @@ footer span {
 
     .m3-left::after {
         top: 9%;
-        left: 0;
+        left: 5%;
         transform: translate(0,-50%);
+    }
+
+    .m3-right {
+        padding-top: 80px;
     }
 
 
@@ -1686,7 +1724,8 @@ footer span {
     }
 
     .m3-sliders img {
-        width: 60vw;
+        width: 80vw;
+        height: auto;
         
     }
 
@@ -1718,6 +1757,11 @@ footer span {
         padding: 50px 0;
     }
 
+    .p1-top img, .p2-top img {
+        margin-bottom: 40px;
+        width: 30px;
+    }
+
     .p1-bottom,.p2-bottom {
         margin-top:50px;
         width: 90%;
@@ -1745,7 +1789,45 @@ footer span {
 
     .f-f-button {
         font-size: 2rem!important;
-        width: 60%!important;
+    }
+
+    .main-btn span {
+        font-size: 2.3rem;
+    }
+
+    .f-logo {
+        margin-bottom: 30px;
+    }
+
+    .f-innerbox > p {
+        font-size: 2rem;
+        line-height: 130%;
+
+    }
+
+    .f-f-button {
+        width: 80%!important
+    }
+
+    .f-f-button h4{
+        text-align: center;
+    }
+
+    footer p{
+        font-size: 1.5rem!important;
+        margin-bottom: 15px!important;
+    }
+
+    @keyframes main {
+        0%{
+            opacity: 0;
+            transform: translate3d(-200px,0,0);
+        }
+        100%{
+            opacity: 1;
+            transform: translate3d(0,0,0);
+        }
+        
     }
 
 

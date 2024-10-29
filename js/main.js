@@ -393,7 +393,7 @@ productsRatio > 1 ? productsRatio = 1 : productsRatio < 0 ? productsRatio = 0 : 
 console.log(scrollY,$('#products').offset().top)
  
 if(windowInnerWidth <=768){
-  $('.p-sliders').css("transform",`translate(-${($('.p-sliders').width()- $(window).innerWidth() + 300)*productsRatio}px,-50%)`)
+  $('.p-sliders').css("transform",`translate(-${($('.p-sliders').width()- $(window).innerWidth() + 340)*productsRatio}px,-50%)`)
  }else{
    $('.p-sliders').css("transform",`translate(-${($('.p-sliders').width()- $(window).innerWidth() + 150)*productsRatio}px,-50%)`)
  }
