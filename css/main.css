@@ -1,7 +1,20 @@
 
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
 
 html {
-    font-family: 'TTTtangsbudaejjigaeB' , 'NanumSquareNeo-Variable';
+    font-family: 'TTTtangsbudaejjigaeB' , 'Pretendard-Regular';
 }
 
 html,body {
@@ -46,7 +59,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-right: 50px;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 }
 
 .nav li {
@@ -146,7 +159,7 @@ header {
 .main-box p {
     margin-top: 3rem;
     line-height: 200%;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     font-size: 1.3rem;
 }
 
@@ -170,7 +183,7 @@ header {
     text-align: center;
     font-size: 1.3rem;
     vertical-align: middle;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 }
 
 
@@ -248,7 +261,7 @@ header {
     
     font-size: 1.6rem;
     margin-top: 60px;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 
 }
 
@@ -340,7 +353,7 @@ header {
     color: #fff;
     font-size: 1.3rem;
     line-height: 120%;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 
 }
 
@@ -411,7 +424,7 @@ header {
 
 .c2-top p {
     font-size: 2rem;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 }
 
 .c2-top p span {
@@ -583,7 +596,7 @@ header {
     color: #fff;
     font-size: 1.6rem;
     line-height: 150%;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     
 }
 
@@ -651,7 +664,7 @@ header {
 .cost-bar p {
     position: absolute;
     font-size: 1.6rem;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
@@ -663,7 +676,7 @@ header {
 .beware{
     font-size: 1.3rem;
     color: #fff;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     
 }
 
@@ -826,7 +839,7 @@ header {
 }
 
 .m3-middle,.m3-bottom {
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 }
 
 .m3-middle p,.m3-bottom p {
@@ -1000,7 +1013,7 @@ header {
 
 .p1-top p, .p2-top p {
     text-align: center;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     font-size: 1.6rem;
     line-height: 120%;
 }
@@ -1096,7 +1109,7 @@ header {
 }
 
 .f-innerbox p {
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     font-size: 1.6rem;
     margin-bottom: 30px;
     line-height: 120%;
@@ -1105,7 +1118,7 @@ header {
 .f-innerbox .f-f-button {
     padding: 20px;
     font-size: 2.5rem;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
     font-weight: 700;
     border: 1px solid #000;
     border-radius: 50px;
@@ -1127,7 +1140,7 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    font-family: 'NanumSquareNeo-Variable';
+    font-family: 'Pretendard-Regular';
 
 }
 
